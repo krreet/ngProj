@@ -4,13 +4,15 @@
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
+    "buildhero": "ng build",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "now-build": "ng build --prod --output-path dist",
-    "start": "./node_modules/.bin/ng serve",
-    "postinstall": "ng build --aot --prod",
+    "startLocal": "./node_modules/.bin/ng serve",
+    "start": "node server",
+    "postinstallhero": "ng build --aot --prod",
     "deploy": "git add . && git commit -am \"updates to deploy to heroku\" && git push"
   },
   "private": true,
