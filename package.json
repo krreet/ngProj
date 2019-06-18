@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "now-build": "ng build --prod --output-path dist",
     "start": "node server.js",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
